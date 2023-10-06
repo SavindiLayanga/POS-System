@@ -12,3 +12,13 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {anchor.addEventList
         }
     });
 });
+
+function addTelephone() {
+    const telephoneInputs = document.querySelector(".telephone-inputs");
+    const newInput = document.createElement("input");
+    newInput.type = "text";
+    newInput.name = "telephone";
+    newInput.required = true;
+    newInput.placeholder = "Enter telephone number";
+    telephoneInputs.appendChild(newInput);
+}

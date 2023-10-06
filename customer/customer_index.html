@@ -11,14 +11,81 @@
 <body>
 <nav class="navbar">
     <ul>
-        <li><a href="#section1">Section 1</a></li>
-        <li><a href="#section2">Section 2</a></li>
-        <li><a href="#section3">Section 3</a></li>
+        <li><a href="#Section 1"> Home </a></li>
+        <li><a href="#Section 2"> Order </a></li>
+        <li><a href="#Section 3"> Item </a></li>
+        <li><a href="#Section 4"> Other </a></li>
     </ul>
 </nav>
-<div id="section1" class="section">Section 1 content</div>
-<div id="section2" class="section">Section 2 content</div>
-<div id="section3" class="section">Section 3 content</div>
+
+<div id="section1" class="section">
+    <div class="info">
+        <div class="name">
+            Customer
+        </div>
+
+        <div class="nested-box">
+            <form action="#" method="get">
+<!--                <label for="search">Search:</label>-->
+                <input type="text" id="search" name="search" placeholder="    Input Name / NIC / Tp Here ">
+                <br>
+                <button type="submit" id="search_button" class="button">Search</button>
+
+                <select id="select_button" class="button" name="name" > Name
+                    <option value="option1">Option 1</option>
+                    <option value="option2">Option 2</option>
+                    <option value="option3">Option 3</option>
+                </select>
+
+                <form id="customer-form">
+                    <div class="input-container">
+                        <label for="customer-id" >Customer ID:</label>
+                        <br>
+                        <input type="text" id="customer-id" name="customer-id" required>
+
+                        <label for="nic" > NIC:</label>
+                        <br>
+                        <input type="text" id="nic" name="nic" required>
+                        <br>
+
+                        <label for="name" >Name:</label>
+                        <br>
+                        <input type="text" id="name" name="name" required>
+                        <br>
+
+                        <label for="address">Address:</label>
+                        <br>
+                        <input type="text" id="address" name="address" required>
+                        <br>
+
+                        <label for="telephone">Telephone Numbers:</label>
+                        <br>
+                        <div class="telephone-inputs">
+                            <input type="text" id="telephone" name="telephone" required>
+                            <button type="button" onclick="addTelephone()">Add Telephone</button>
+                        </div>
+                    </div>
+                    <div class="input-container">
+                        <button type="submit">Submit</button>
+                    </div>
+                </form>
+            </form>
+        </div>
+    </div>
+
+</div>
+
+<div id="section2" class="section">Section 2 content
+
+</div>
+
+<div id="section3" class="section">Section 3 content
+
+</div>
+
+<div id="section4" class="section">Section 4 content
+
+</div>
 
 <script src="script.js"></script>
 

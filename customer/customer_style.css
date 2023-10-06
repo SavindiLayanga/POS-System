@@ -1,0 +1,125 @@
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #383838;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    font-family: 'Inika', serif;
+}
+
+.navbar li {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+}
+
+.section {
+    height: 800px; /* Example height for sections */
+    padding: 20px;
+    font-size: 24px;
+}
+/********************************************/
+#section1{
+    background-color: #B2B2B2;
+    display: flex;
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    height: 100vh;
+}
+#section1 .info{
+    width: 1400px; /* Adjust the width as needed */
+    height: 300px; /* Adjust the height as needed */
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-left: 1.25%;
+    margin-top: 5%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+#section1 .info .name{
+    width: 1425px; /* Adjust the width as needed */
+    height: 30px; /* Adjust the height as needed */
+    background-color: #3A6439;
+    text-align: left;
+    color: #f0f0f0;
+    /*padding: 20px;*/
+    margin-left: -1%;
+    margin-top: -1%;
+    font-size: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+/*.centered-box {*/
+/*    width: 300px; !* Adjust the width as needed *!*/
+/*    background-color: #f0f0f0;*/
+/*    border: 1px solid #ccc;*/
+/*    text-align: center;*/
+/*    padding: 20px;*/
+/*}*/
+
+.nested-box {
+    background-color: #ddd;
+    padding: 10px;
+    margin-top: 10px;
+}
+input{
+    width: 800px;
+    height: 20px;
+}
+.button{
+    background-color: #088B1D;
+    color: #f0f0f0;
+    width: 100px;
+    height: 25px;
+    border: 1px solid black;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+#search_button{
+    margin-left: 5%;
+    margin-top: 10px;
+}
+#select_button{
+background-color: transparent;
+    color: black;
+}
+.input-container {
+    margin-bottom: 10px;
+    text-align: left;
+}
+.telephone-inputs {
+    display: flex;
+    flex-direction: column;
+}
+.telephone-inputs input {
+    margin-bottom: 5px;
+}
+label{
+    font-size: 14px;
+}
+#customer-id{
+    width: 500px;
+}
+#nic{
+    width: 500px;
+    margin-left: 20%;
+}
